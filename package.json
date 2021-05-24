@@ -1,5 +1,5 @@
 {
-  "name": "cmake-js",
+  "name": "@sergeyfromhell/cmake-js",
   "description": "CMake.js - a Node.js/io.js native addon build tool",
   "license": "MIT",
   "keywords": [
