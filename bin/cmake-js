@@ -66,8 +66,7 @@ var yargs = require("yargs")
             describe: "build debug configuration",
             type: "boolean"
         },
-        C: {
-            alias: "config",
+        "config": {
             demand: false,
             describe: "specify build configuration (Debug, RelWithDebInfo, Release), will ignore '--debug' if specified",
             type: "string"
@@ -213,6 +212,7 @@ var options = {
     preferClang: argv.C,
     cCompilerPath: argv.cc,
     cppCompilerPath: argv.cxx,
+    config: argv.config,
     runtime: argv.r,
     runtimeVersion: argv.v,
     arch: argv.a,
